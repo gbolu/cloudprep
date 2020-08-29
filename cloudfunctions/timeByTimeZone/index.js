@@ -2,7 +2,6 @@ const IP2Country = require("ip2countrify");
 const moment = require("moment-timezone");
 const ct = require("countries-and-timezones");
 
-// get country code of ip address
 const getCountryCodeByIP = (ipAddress) => {
   return new Promise((resolve, reject) => {
     IP2Country.lookup(ipAddress, (ip, results, error) => {

@@ -1,0 +1,11 @@
+{
+  "name": "timeByTimeZone",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "countries-and-timezones": "^2.3.0",
+    "ip2countrify": "^0.2.0",
+    "moment-timezone": "^0.5.31"
+  }
+}
